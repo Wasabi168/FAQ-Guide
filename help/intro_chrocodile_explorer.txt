@@ -1,0 +1,5 @@
+Chart: data v.s. time
+Chart: Spectrum
+Trigger control
+Parameter monitor
+Command console

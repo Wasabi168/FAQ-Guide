@@ -1,0 +1,6 @@
+The API supports all 
+families of Precitec 
+CHRocodile optical
+measurement devices: 
+CHRocodile 2, Mini, C, MPS,
+CLS and CLS2.0.

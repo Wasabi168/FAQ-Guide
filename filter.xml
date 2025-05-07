@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FilterGraph>
+ <Filters>
+  <F Name="CHR" SubType="Multi-Channel" Type="Port"/>
+  <F Name="PipeClient" SubType="PipeClient" Type="Client"/>
+ </Filters>
+ <Connections>
+  <C From="1" To="2"/>
+ </Connections>
+ <Init>
+  <F ID="1" Name="CHR">
+   <PortSetting>
+    <ConnectionType v="1"/>
+    <ComNr v="0"/>
+    <Baudrate v="18"/>
+    <RTSCTSActive v="1"/>
+    <TXBIndex v="5242912"/>
+    <SensorIPAddr v="192.168.170.2"/>
+    <SensorPort v="7891"/>
+   </PortSetting>
+  </F>
+  <F ID="2" Name="PipeClient" Version="2">
+   <PipeName v="PipeClient"/>
+   <PipeType v="1"/>
+   <PipeConType v="0"/>
+   <TCPPort v="7777"/>
+   <SendAllRsp v="0"/>
+   <AsciiRspFullInfo v="0"/>
+   <BinOnlySupportXML v="1"/>
+   <AsciiDSeparator v="."/>
+  </F>
+ </Init>
+</FilterGraph>

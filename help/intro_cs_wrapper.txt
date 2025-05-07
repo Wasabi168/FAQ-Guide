@@ -1,0 +1,3 @@
+The C# wrapper simply
+translates API functions
+into c# style.

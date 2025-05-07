@@ -1,0 +1,1 @@
+Image.open(object.logo.path).convert('RGBA').save('tmpoutput.png')

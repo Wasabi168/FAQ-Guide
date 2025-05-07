@@ -1,0 +1,3 @@
+The Python wrapper simply
+translates API functions
+into Python style.

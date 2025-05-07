@@ -1,0 +1,2 @@
+[2023-02-14]
+1. Trigger Scan page bug fixes
